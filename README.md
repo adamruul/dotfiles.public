@@ -8,6 +8,7 @@ Configuration files for my environment(s).
 - iTerm2
 - [Alfred](https://www.alfredapp.com/) @ `Alt+A`
 - iCloud Drive
+- [Custom settings script](/.osx)
 
 
 ## **Windows 11**
