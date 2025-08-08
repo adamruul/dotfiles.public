@@ -5,7 +5,7 @@ ZSH_THEME="robbyrussell"
 
 alias explore='open -a Finder ./'
 alias rmdir='rm -rf'
-alias myip='curl ip.appspot.com'
+alias myip='curl ifconfig.me/ip'
 alias localip='ipconfig getifaddr en0'
 alias gstatus='git status -sb'
 
