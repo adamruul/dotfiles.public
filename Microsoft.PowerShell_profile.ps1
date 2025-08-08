@@ -6,10 +6,14 @@ function rmdir {
 
 function myip {
         echo "Resolving IP..."
-       
-	    # External IP
+
+        # External IP
         $MyExternalIP = (Invoke-WebRequest ifconfig.me/ip).Content.Trim()
 
+		# External IP location.
+        $MyCountry = (Invoke-WebRequest ifconfig.co/country).Content.Trim()
+        $MyCity = (Invoke-WebRequest ifconfig.co/city).Content.Trim()
+        $MyLocationString = "$MyCountry/$MyCity"
 
         # Internal IP
         $MyInternalIP = (
@@ -21,14 +25,16 @@ function myip {
         ).IPv4Address.IPAddress
 
 
-        # Hostname
-        $MyHostname = [System.Net.Dns]::GetHostByAddress("$MyInternalIP").Hostname
+        $MyInternalIPFirst = "$MyInternalIP".split(" ")[0]
 
-        echo "-----------------------------------"
+        # Hostname
+        $MyHostname = [System.Net.Dns]::GetHostByAddress("$MyInternalIPFirst").Hostname
+
+        echo "---------------------------------------------------------------------"
         echo "Hostname: `t$MyHostname"
-        echo "Internal IP: `t$MyInternalIP"
-        echo "External IP: `t$MyExternalIP"
-        echo "-----------------------------------"
+        echo "Internal IP: `t$MyInternalIPFirst"
+        echo "External IP: `t$MyExternalIP ($MyLocationString)"      
+        echo "---------------------------------------------------------------------"
 }
 
 
