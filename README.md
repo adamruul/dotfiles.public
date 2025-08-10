@@ -3,6 +3,43 @@
 Configuration files for my environment(s).
 
 
+## Keybinds
+
+
+- CTRL: Reserved for application-level binds.
+
+
+### Windows Shortcut remaps:
+| Key | Mapped to: |
+|:----|:-----------|
+| `Fn` | `Ctrl` |
+| `Alt` + `7` | `\|` |
+| `Shift` + `Alt` + `7` | `\` |
+| `Shift` + `Alt` + `8` | `{` | 
+| `Shift` + `Alt` + `9` | `}` |
+
+
+| Key | Command |
+|:----|:--------|
+| `Alt` + `A` | PowerToys: Command Palette. |
+| `Alt` + `W` | Application: Run command. |
+| `Ctrl` + `Alt` + `Enter` | Open terminal. | 
+| `Alt` + `R` | *Reserved for application-level binds.* |
+| `Alt` + `Q` | GlazeWM: Close focused window. |
+| `Alt` + `F` | GlazeWM: Toggle fullscreen for focused window. | 
+| `Alt` + `M` | GlazeWM: Minimize focused window. |
+| `Alt` + `S` | GlazeWM: Toggle floating for focused window. |
+| `Alt` + `Caps Lock` <br/> `LWin` + `Tab` | GlazeWM: Cycle between tiled/floating/fullscreen windows. |
+| `Alt` + `ARROW_KEYS` | GlazeWM: Focus window in direction. |
+| `LWin` + `1`..`9` | GlazeWM: Focus workspace 1-9 | 
+| `Shift` + `Alt` + `ARROW_KEYS` | GlazeWM: Move focused window in direction. | 
+| `Ctrl` + `Alt` + `ARROW_KEYS` | GlazeWM: Resize focused window. |
+| `LWin` + `Shift` + `1`..`9` | GlazeWM: Move focused window to workspace 1-9 | 
+| `Alt` + `.` <br/> `LWin` + `.`| GlazeWM: Focus next workspace. |
+| `Alt` + `,` <br/> `LWin` + `,`| GlazeWM: Focus previous workspace. |
+
+
+
 ## **OSX**
 - zsh + [Oh My Zsh](https://ohmyz.sh/)
 - iTerm2
@@ -19,6 +56,7 @@ Configuration files for my environment(s).
   - Capture Region @ `Shift+Alt+4` 
 - iCloud Drive
 - WSL2
+- GlazeWM
 
 ## **Misc.**
 
