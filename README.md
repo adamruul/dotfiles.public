@@ -3,11 +3,10 @@
 Configuration files for my environment(s).
 
 
-## Keybinds
-
-
+## Keybinds 
 - CTRL: Reserved for application-level binds.
-
+- Alt+Tab: Cycle between desktops/workspaces.
+- Win/CMD + <ARROW_KEYS>: Window tiling
 
 ### Windows Shortcut remaps:
 | Key | Mapped to: |
@@ -17,14 +16,29 @@ Configuration files for my environment(s).
 | `Shift` + `Alt` + `7` | `\` |
 | `Shift` + `Alt` + `8` | `{` | 
 | `Shift` + `Alt` + `9` | `}` |
+| `Win` + `Tab` | `Alt` + `Tab` |
+| `Alt` + `Tab` | `Win` + `Tab` |
+| `Win` + `C` | `Ctrl` + `C` |
+| `Win` + `V` | `Ctrl` + `V` |
+| `Win` + `X` | `Ctrl` + `X` |
+| `Win` + `F` | `Ctrl` + `F` |
+| `Win` + `Z` | `Ctrl` + `Z` |
+> *Remapped using PowerToys.*
 
 
+### Keybinds
 | Key | Command |
 |:----|:--------|
 | `Alt` + `A` | PowerToys: Command Palette. |
 | `Alt` + `W` | Application: Run command. |
-| `Ctrl` + `Alt` + `Enter` | Open terminal. | 
+| `Shift` `Shift` | Application: Open/find. | 
+| `Shift` + `Alt` + `Enter` | Open terminal. | 
 | `Alt` + `R` | *Reserved for application-level binds.* |
+
+
+### GlazeWM
+| Key | Command |
+|:----|:--------|
 | `Alt` + `Q` | GlazeWM: Close focused window. |
 | `Alt` + `F` | GlazeWM: Toggle fullscreen for focused window. | 
 | `Alt` + `M` | GlazeWM: Minimize focused window. |
@@ -56,7 +70,7 @@ Configuration files for my environment(s).
   - Capture Region @ `Shift+Alt+4` 
 - iCloud Drive
 - WSL2
-- GlazeWM
+- GlazeWM (Optional)
 
 ## **Misc.**
 
@@ -108,7 +122,19 @@ Color theme: Material Gruvbox
 - Commander
 - Enveloppe
 - Remember Cursor Position
-- Make.md
+- Iconize
+- Meld Encrypt
+- [File Color](https://github.com/ecustic/obsidian-file-color)
+- Omnisearch
+- Doubleshift
+- Linter
+- Kanban
+- Auto Link Title
+- Advanced Canvas
+- Note Toolbar
+- Floating TOC
+- Tasks
+
 
 
 ___
