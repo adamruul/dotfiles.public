@@ -26,6 +26,9 @@ set tabstop=4
 " Show matching brackets when text indicator is over them
 set showmatch
 
+" Use OS clipboard
+set clipboard=unnamedplus
+
 " pls just accept that I want to exit vim.
 command! Q	q
 command! W	w
@@ -33,10 +36,24 @@ command! Wq	wq
 command! WQ	wq
 
 
+" CTRL-c / CTRL-V
+vmap <C-c> y
+imap <C-v> <esc>pi
+nmap <C-v> p
+
+" CTRL-f = Search
+nmap <C-f> /
+imap <C-f> <esc>/
+
 " CTRL-z = Undo
 nmap <C-z> u
 imap <C-z> <esc>ui
 
+" CTRL-y = Redo
+nmap <C-y> <C-r>
+imap <C-y> <esc><C-r>i
+imap <C-r> <esc><C-r>i
+nmap r <C-r>
 
 " Use Shift-Up/Down/Left/Right to select text.
 imap <S-Down> <esc>v<Down>
@@ -54,6 +71,3 @@ vmap <S-Left> <Left>
 imap <S-Right> <esc>v<Right>
 nmap <S-Right> v<Right>
 vmap <S-Right> <Right>
-
-
-

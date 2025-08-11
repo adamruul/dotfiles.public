@@ -2,6 +2,8 @@ Set-Alias -name vim -Value nvim
 Set-Alias -name emptytrash -Value Empty-RecycleBin
 Set-Alias -name reload -Value Reload-Powershell
 
+Set-PSReadLineKeyHandler -Chord Ctrl-a -Function BeginningOfLine
+Set-PSReadLineKeyHandler -Chord Ctrl-e -Function EndOfLine
 
 function rmdir {
 	Remove-Item -Recurse -Force -Path $args
