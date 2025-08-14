@@ -7,7 +7,7 @@
         {
           "foreground": "#98C379",
           "style": "plain",
-          "template": "\u279c",
+          "template": "\u276F",
           "type": "text"
         },
         {
@@ -20,12 +20,12 @@
           "type": "path"
         },
         {
-          "foreground": "#D0666F",
+          "foreground": "#b16286",
           "properties": {
             "branch_icon": ""
           },
           "style": "plain",
-          "template": " <#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)</>",
+          "template": " <#b16286>@</>{{ .HEAD }}<#b16286></>",
           "type": "git"
         },
         {

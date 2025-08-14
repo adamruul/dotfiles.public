@@ -97,6 +97,21 @@ ___
 ___
 ### VS Code
 - [adam.code-profile](/vs_code/adam.code-profile)
+- Claude Code for VSCode
+- Code Runner
+- Container Tools
+- Error Lens
+- Gruvbox Theme
+- JetBrains Icon Theme
+- Peacock
+- Prettier
+- Rainbow CSV
+- Vim
+
+
+
+
+
 
 
 #### Extensions:
