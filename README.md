@@ -7,6 +7,9 @@ Configuration files for my environment(s).
 - CTRL: Reserved for application-level binds.
 - Alt+Tab: Cycle between desktops/workspaces.
 - Win/CMD + <ARROW_KEYS>: Window tiling
+- Alt + <ARROW_KEYS>: Alternate between Workspaces
+- Alt + Win + <ARROW_KEYS>: Move window to workspace
+- Alt + Win + <number>: Move window to workspace
 
 ### Windows Shortcut remaps:
 | Key | Mapped to: |
@@ -35,22 +38,6 @@ Configuration files for my environment(s).
 | `Shift` + `Alt` + `Enter` | Open terminal. | 
 | `Alt` + `R` | *Reserved for application-level binds.* |
 
-
-### GlazeWM
-| Key | Command |
-|:----|:--------|
-| `Alt` + `Q` | GlazeWM: Close focused window. |
-| `Alt` + `F` | GlazeWM: Toggle fullscreen for focused window. | 
-| `Alt` + `M` | GlazeWM: Minimize focused window. |
-| `Alt` + `S` | GlazeWM: Toggle floating for focused window. |
-| `Alt` + `Caps Lock` <br/> `LWin` + `Tab` | GlazeWM: Cycle between tiled/floating/fullscreen windows. |
-| `Alt` + `ARROW_KEYS` | GlazeWM: Focus window in direction. |
-| `LWin` + `1`..`9` | GlazeWM: Focus workspace 1-9 | 
-| `Shift` + `Alt` + `ARROW_KEYS` | GlazeWM: Move focused window in direction. | 
-| `Ctrl` + `Alt` + `ARROW_KEYS` | GlazeWM: Resize focused window. |
-| `LWin` + `Shift` + `1`..`9` | GlazeWM: Move focused window to workspace 1-9 | 
-| `Alt` + `.` <br/> `LWin` + `.`| GlazeWM: Focus next workspace. |
-| `Alt` + `,` <br/> `LWin` + `,`| GlazeWM: Focus previous workspace. |
 
 
 
@@ -109,6 +96,9 @@ ___
 - Vim
 
 
+___
+### Claude Code
+- [CLAUDE.md](/.claude/CLAUDE.md)
 
 
 
@@ -125,7 +115,6 @@ ___
 ___
 ### Docker
 - [Kali Linux](https://hub.docker.com/r/kalilinux/kali-rolling)
-
 
 ___
 ### Obsidian
