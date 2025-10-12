@@ -2,7 +2,7 @@
 
 **IMPORTANT**: All git operstions MUST be approved by the user. ALWAYS provide the user with a summary of your intention... and prompt for an approval.
 
-# Branches
+## Branches
 - todo
 
 ## Commits
