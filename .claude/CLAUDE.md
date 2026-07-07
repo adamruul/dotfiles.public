@@ -118,9 +118,18 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ## Guidelines
 
 ### Git
+
 - ALWAYS use git worktrees when making changes to a git repository. BEFORE making changes to a clean working tree, create a new worktree and make the change there instead.
 - NEVER commit changes unless the user explicitly asks to. It is VERY IMPORTANT to only commit when explicitly asked.
 - NEVER push changes unless the user explicitly tells you to.
+
+#### Pull Requests
+
+- PRs you create must have clear descriptions covering: why the change is being made, how it was implemented at a high level, how correctness was verified, and what design decisions or trade-offs were intentionally made.
+- Link PRs to the relevant work item (Jira, Linear, GitHub issue).
+- Link PRs to relevant background documents (RFCs, discussion threads, design docs).
+- Prefix PR titles with the work item ID when one exists, e.g. `[MYPROJECT-123] Add dark mode toggle`.
+- PR titles should be concise, specific, and describe the what — not the how. Use imperative mood ("Add X", "Fix Y", "Remove Z"), avoid vague titles like "Updates" or "WIP fixes", and keep them scannable for reviewers triaging a list of PRs.
 
 
 ### New Project Defaults
