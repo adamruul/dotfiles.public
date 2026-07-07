@@ -5,7 +5,7 @@ description: >
   Fetches linked resources (design docs, RFCs, Confluence pages) to enrich the output.
   Use when the user wants to write, draft, or improve a Jira Epic and may provide links alongside rough notes.
   Triggered by: "write-jira-epic", "help me write an epic", "draft an epic", "turn these notes into an epic",
-  "write a Jira epic description". For Spotify-specific epics with MEC/MW estimations, use spo-jira-epic instead.
+  "write a Jira epic description".
 ---
 
 # write-jira-epic
