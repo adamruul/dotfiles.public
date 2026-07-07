@@ -122,6 +122,7 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 - ALWAYS use git worktrees when making changes to a git repository. BEFORE making changes to a clean working tree, create a new worktree and make the change there instead.
 - NEVER commit changes unless the user explicitly asks to. It is VERY IMPORTANT to only commit when explicitly asked.
 - NEVER push changes unless the user explicitly tells you to.
+- Name worktrees & branches after the most relevant work item (GitHub/Jira/Linear issue). Example: `myjira-123/add-dark-mode-toggle`
 
 #### Pull Requests
 
