@@ -142,7 +142,7 @@ These defaults apply when creating a new project from scratch. For existing proj
 - **Python**: Scripts, smaller APIs, CLIs, agents
   - uv, ruff, FastAPI, Claude SDK, click, rich
 - **TypeScript**: Web services, applications with UI, CLIs, agents
-  - bun, AG Grid, AG Charts, TailwindCSS, Svelte, Claude SDK
+  - bun, AG Grid, AG Charts, TailwindCSS + shadcn/ui, Svelte, Claude SDK
 - **Go**: High-performance backend services
   - FastHTTP, gRPC, JWT
 - **Bash**: Small scripts, local utilities, ad-hoc automation
